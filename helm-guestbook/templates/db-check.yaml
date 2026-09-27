@@ -20,4 +20,5 @@ spec:
         - name: DB_HOST
           valueFrom:
             configMapKeyRef:
+              name: db-config
               key: db_host
